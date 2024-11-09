@@ -18,7 +18,7 @@ if presse == "x" or presse== "X" :
             questions_list.remove(randomquestion)
        if randomquestion == 2: 
             print("1ère Question")
-            print("La capital de l italie est:")
+            print("La capital de l'italie est:")
             print("[a] Nicosie")
             print("[b] La Valette")
             print("[c] Dublin") 
