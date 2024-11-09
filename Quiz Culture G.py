@@ -299,11 +299,11 @@ while questions_list:
         print(f"{BLUE}Quel est la formule chimique du phosphate ?")
         if input() == "PO4":
             print(f"{GREEN}Réponse correcte")
-            print(f"{YELLOW}La formule chimique tu méthane est PO4")
+            print(f"{YELLOW}La formule chimique tu hosphatep est PO4")
             goodansw += 1
         else:
             print(f"{RED}Réponse erronée")
-            print(f"{YELLOW}La formule chimique tu méthane est PO4")
+            print(f"{YELLOW}La formule chimique tu hosphatep est PO4")
         questions_list.remove(randomquestion)
 
 
