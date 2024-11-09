@@ -296,8 +296,8 @@ while questions_list:
         questions_list.remove(randomquestion)
 
     if randomquestion == 20:
-        print(f"{BLUE}Quel est la formule chimique du méthane ?")
-        if input() == "CH4":
+        print(f"{BLUE}Quel est la formule chimique du phosphate ?")
+        if input() == "PO4":
             print(f"{GREEN}Réponse correcte")
             print(f"{YELLOW}La formule chimique tu méthane est CH4")
             goodansw += 1
