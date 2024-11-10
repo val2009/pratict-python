@@ -299,7 +299,7 @@ while questions_list:
         print(f"{BLUE}Quel est la formule chimique du phosphate ?")
         if input() == "PO4":
             print(f"{GREEN}Réponse correcte")
-            print(f"{YELLOW}La formule chimique du phosphate est PO4")
+            print(f"{YELLOW}La formule chimique du phosphate est bien PO4")
             goodansw += 1
         else:
             print(f"{RED}Réponse erronée")
