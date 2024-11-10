@@ -257,7 +257,7 @@ while questions_list:
         print(f"[a]{RESET} Tigre")
         print(f"{BLUE}[b]{RESET} Lion")
         print(f"{BLUE}[c]{RESET} Leopard")
-        print(f"{BLUE}[d]{RESET} Cheetah")
+        print(f"{BLUE}[d]{RESET} Guépard")
         print(f"{BLUE}[e]{RESET} Panda")
     
         if input().lower() == "e":
@@ -299,11 +299,11 @@ while questions_list:
         print(f"{BLUE}Quel est la formule chimique du phosphate ?")
         if input() == "PO4":
             print(f"{GREEN}Réponse correcte")
-            print(f"{YELLOW}La formule chimique tu hosphatep est PO4")
+            print(f"{YELLOW}La formule chimique du phosphatep est PO4")
             goodansw += 1
         else:
             print(f"{RED}Réponse erronée")
-            print(f"{YELLOW}La formule chimique tu hosphatep est PO4")
+            print(f"{YELLOW}La formule chimique du phosphatep est PO4")
         questions_list.remove(randomquestion)
 
 
@@ -315,7 +315,7 @@ if goodansw <= 9:
     print(f"{RED}bien essayé")
 elif 10 <= goodansw <= 15:
     print(f"{YELLOW}Bien joué")
-elif 15 <= goodansw <= 19:
+elif 15 < goodansw <= 19:
     print(f"{RESET}excellent")
 elif goodansw == 20:
     print(f"{GREEN}Parfait")
